@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="utf-8">
-        <title>CaterServ - Catering Services Website Template</title>
+        <title>CaterServ</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
@@ -14,6 +14,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playball&display=swap" rel="stylesheet">
 
         <!-- Icon Font Stylesheet -->
+        <link rel="icon" href="img\favicon.ico" type="logo/icon" sizes="30x30">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
