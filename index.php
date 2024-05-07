@@ -43,7 +43,7 @@
         <div class="container-fluid nav-bar">
             <div class="container">
                 <nav class="navbar navbar-light navbar-expand-lg py-4">
-                    <a href="index.html" class="navbar-brand">
+                    <a href="index.php" class="navbar-brand">
                         <h1 class="text-primary fw-bold mb-0">Cater<span class="text-dark">Serv</span> </h1>
                     </a>
                     <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -51,22 +51,21 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <div class="navbar-nav mx-auto">
-                            <a href="index.html" class="nav-item nav-link active">Home</a>
-                            <a href="about.html" class="nav-item nav-link">About</a>
-                            <a href="service.html" class="nav-item nav-link">Services</a>
-                            <a href="event.html" class="nav-item nav-link">Events</a>
-                            <a href="menu.html" class="nav-item nav-link">Menu</a>
+                            <a href="index.php" class="nav-item nav-link active">Home</a>
+                            <a href="about.php" class="nav-item nav-link">About</a>
+                            <a href="service.php" class="nav-item nav-link">Services</a>
+                            <a href="event.php" class="nav-item nav-link">Events</a>
+                            <a href="menu.php" class="nav-item nav-link">Menu</a>
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                                 <div class="dropdown-menu bg-light">
-                                    <a href="book.html" class="dropdown-item">Booking</a>
-                                    <a href="blog.html" class="dropdown-item">Our Blog</a>
-                                    <a href="team.html" class="dropdown-item">Our Team</a>
-                                    <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                                    <a href="404.html" class="dropdown-item">404 Page</a>
+                                    <a href="book.php" class="dropdown-item">Booking</a>
+                                    <a href="blog.php" class="dropdown-item">Our Blog</a>
+                                    <a href="team.php" class="dropdown-item">Our Team</a>
+                                    <a href="testimonial.php" class="dropdown-item">Testimonial</a>
                                 </div>
                             </div>
-                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                            <a href="contact.php" class="nav-item nav-link">Contact</a>
                         </div>
                         <button class="btn-search btn btn-primary btn-md-square me-4 rounded-circle d-none d-lg-inline-flex" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
                         <a href="" class="btn btn-primary py-2 px-4 d-none d-xl-inline-block rounded-pill">Book Now</a>
@@ -200,8 +199,8 @@
                     </div>
                     <div class="modal-body">
                         <!-- 16:9 aspect ratio -->
-                        <div class="ratio ratio-16x9">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/jf2no9vSUus?si=UTJXJL_hBIm8-pYV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="ratio ratio-16x9"> 
+                            <iframe src="https://www.youtube.com/embed/jf2no9vSUus?si=UTJXJL_hBIm8-pYV" title="YouTube video player" frameborder="0" id="video" allowfullscreen allowscriptaccess="always" allow="autoplay"></iframe>
                         </div>
                     </div>
                 </div>
@@ -590,8 +589,7 @@
                                         <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-01.jpg" alt="">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Paneer</h4>
-                                                <h4 class="text-primary">$90</h4>
+                                                <h4>Panner</h4>
                                             </div>
                                             <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
                                         </div>
@@ -599,11 +597,10 @@
                                 </div>
                                 <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.2s">
                                     <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-02.jpg" alt="">
+                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img\Vegetable Fried Rice.jpg" alt="">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Sweet Potato</h4>
-                                                <h4 class="text-primary">$90</h4>
+                                                <h4>Vegetable Fried Rice</h4>
                                             </div>
                                             <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
                                         </div>
@@ -611,11 +608,10 @@
                                 </div>
                                 <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.3s">
                                     <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-03.jpg" alt="">
+                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img\Kadai Paneer.jpg" alt="">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Sabudana Tikki</h4>
-                                                <h4 class="text-primary">$90</h4>
+                                                <h4>Kadai Paneer</h4>
                                             </div>
                                             <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
                                         </div>
@@ -623,11 +619,10 @@
                                 </div>
                                 <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.4s">
                                     <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-04.jpg" alt="">
+                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-02.jpg" alt="">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
                                                 <h4>Pizza</h4>
-                                                <h4 class="text-primary">$90</h4>
                                             </div>
                                             <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
                                         </div>
@@ -635,11 +630,10 @@
                                 </div>
                                 <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.5s">
                                     <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-05.jpg" alt="">
+                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img\Badam Katli.jpg" alt="">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Bacon</h4>
-                                                <h4 class="text-primary">$90</h4>
+                                                <h4>Badam Katli</h4>
                                             </div>
                                             <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
                                         </div>
@@ -647,11 +641,10 @@
                                 </div>
                                 <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.6s">
                                     <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-06.jpg" alt="">
+                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img\Mohabbat Ka Sharbat.jpg" alt="">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Chicken</h4>
-                                                <h4 class="text-primary">$90</h4>
+                                                <h4>Mohabbat Ka Sharbat</h4>
                                             </div>
                                             <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
                                         </div>
@@ -659,11 +652,10 @@
                                 </div>
                                 <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.7s">
                                     <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-07.jpg" alt="">
+                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img\Samosa Chaat.jpg" alt="">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Blooming</h4>
-                                                <h4 class="text-primary">$90</h4>
+                                                <h4>Samosa Chaat</h4>
                                             </div>
                                             <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
                                         </div>
@@ -671,11 +663,10 @@
                                 </div>
                                 <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.8s">
                                     <div class="menu-item d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img/menu-08.jpg" alt="">
+                                        <img class="flex-shrink-0 img-fluid rounded-circle" src="img\Dal Bati Churma.jpgmenu-08.jpg" alt="">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
-                                                <h4>Sweet</h4>
-                                                <h4 class="text-primary">$90</h4>
+                                                <h4>Dal Bati Churma</h4>
                                             </div>
                                             <p class="mb-0">Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
                                         </div>
@@ -1120,14 +1111,6 @@
                                         <option value="3">Ujjain</option>
                                     </select>
                                 </div>
-                                <!-- <div class="col-lg-4 col-md-6">
-                                    <select class="form-select border-primary p-2" aria-label="Default select example">
-                                        <option selected>Select Palace</option>
-                                        <option value="1">Depend On Country</option>
-                                        <option value="2">UK</option>
-                                        <option value="3">India</option>
-                                    </select>
-                                </div> -->
                                 <div class="col-lg-4 col-md-6">
                                     <select class="form-select border-primary p-2" aria-label="Default select example">
                                         <option selected>Event Type</option>
